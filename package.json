@@ -1,0 +1,27 @@
+{
+  "name": "propscholar-cart-reminder",
+  "version": "1.0.0",
+  "description": "Automated cart reminder email system for PropScholar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "email",
+    "cart",
+    "reminder",
+    "cron"
+  ],
+  "author": "PropScholar",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
